@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+
+  <title>JIOSAAVN</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+  <link rel="stylesheet" href="./stream.css">
+
+
+
+
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <a href="./index.html">
+        <div class="logo">JIO <span>SAAVN</span> </div>
+      </a>
+      <a href="./index.html">
+        <div class="item">HOME</div>
+      </a>
+      <div class="searcharea">
+        <input type="text" onfocus="this.value=''" class="search" placeholder="search">
+        <div class="iconarea">
+          <img id="musicsearch" onclick="songs()" class="icon" src="./pngaaa.com-25409.png" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="main">
+
+    </div>
+    <div class="thumbnail">
+      <img id="rimg" src="" width="50px" height="50px" alt="">
+    </div>
+    <audio class="coo" id="player" controls autoplay controlsList="nodownload">
+      <source src="" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+    <button id="btn" class="btn"> <a id="ddlink" target="_self" href=""><i class="fa fa-download"></i></button></a>
+  </div>
+  <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
+  <script src="path/to/plyr.js"></script>
+  <script>
+    const player = new Plyr('#player');
+  </script>
+
+  <script src="./steam.js"></script>
+
+</body>
+
+</html>
